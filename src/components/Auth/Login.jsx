@@ -30,7 +30,7 @@ const Login = ({handleLogin}) => {
                 onChange={(e)=>{
                     setEmail(e.target.value)
                 }}
-                required 
+                required autoFocus
                 className='outline-none bg-transparent border-2 border-emerald-600 font-medium text-lg py-2 px-6 rounded-full placeholder:text-gray-400' type="email" placeholder='Enter your email' 
                 />
                 <input
